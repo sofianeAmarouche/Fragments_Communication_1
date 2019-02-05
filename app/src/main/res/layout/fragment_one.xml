@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment_One">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Name"
+        android:paddingTop="20dp"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:singleLine="true"
+        android:id="@+id/etxtName"
+        android:hint="Post's Name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:paddingTop="20dp"
+        android:textAllCaps="true"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/etxtDesc"
+        android:hint="Post's Description"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:id="@+id/btnSubmit"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
